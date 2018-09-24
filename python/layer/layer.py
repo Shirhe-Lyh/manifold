@@ -22,5 +22,16 @@ class Layer(object):
                  reuse=None,
                  trainable=True,
                  scope=None):
+        """Constructor.
+        
+        Args:
+            activation_fn: Activation function. Set it to None to maintain a
+                linear activation.
+            weights_initializer: An initializer for weights. If None, the
+                defualt initializer will be used.
+            biases_initializer: An initializer for bias vector. If None, the
+                default initializer will be used.
+        """        
+        
         
 
